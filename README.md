@@ -23,8 +23,8 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+This project is developed with the [Nest](https://github.com/nestjs/nest) framework, employing a hexagonal architecture. This structure ensures a clean separation of concerns, promoting maintainability and scalability. Alongside, the project includes comprehensive unit tests. For convenient testing, you can find a Postman collection within the `.docs` folder, which contains a wide range of requests and examples. This collection is specifically designed to facilitate interaction with the project's API endpoints, showcasing the effectiveness of the hexagonal architecture implemented in a NestJS environment. 
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
@@ -58,16 +58,20 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Docker
+This project supports Docker, providing a seamless and consistent development and deployment environment. To get started, make sure you have Docker installed on your system.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Build the image
+First, you need to build the Docker image for the project. Open a terminal, navigate to the root directory of the project where the Dockerfile is located, and run the following command:
+```bash
+docker build -t technical-test .
+```
 
-## Stay in touch
+### Running the Docker Container
+After the image is built, you can run the application in a Docker container. To start the container, execute:
+```bash
+docker run -p 3000:3000 technical-test
+```
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+## License 🔥
+Copyright © 2023-present [Oscar Amado](https://github.com/ofaaoficial) 🧔
