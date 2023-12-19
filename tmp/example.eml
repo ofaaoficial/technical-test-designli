@@ -15,9 +15,6 @@ Content-Type: text/plain; charset="UTF-8"
 Hola,
 Esto es un correo de prueba.
 
-https://raw.githubusercontent.com/aws/aws-lambda-go/main/events/testdata/ses-sns-event.json
-
-
 -- 
 
 Oscar Amado
@@ -47,11 +44,4 @@ er</span></p>
 
 --0000000000001313f5060cd4cff4--
 --0000000000001313f6060cd4cff6
-Content-Type: application/json; name="example.json"
-Content-Disposition: attachment; filename="example.json"
-Content-Transfer-Encoding: base64
-X-Attachment-Id: f_lqbt7nsn0
-Content-ID: <f_lqbt7nsn0>
-
-ew0KICAibmFtZSI6ICJPc2NhciBBbWFkbyIsDQogICJyb2xlIjogImJhY2tlbmQiDQp9DQo=
 --0000000000001313f6060cd4cff6--
