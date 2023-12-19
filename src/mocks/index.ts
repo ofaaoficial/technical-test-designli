@@ -1,0 +1,8 @@
+import { EXAMPLE_EML, EXAMPLE_EML_ATTACHMENT, EXAMPLE_EML_LINK } from './eml';
+
+export default {
+  EXAMPLE_EML,
+  EXAMPLE_EML_LINK,
+  EXAMPLE_EML_ATTACHMENT,
+  JSON,
+};
