@@ -1,10 +1,11 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { SesSnsEventController } from './infraestructure/api/handlers/sesSnsEventController';
+import { MapperUseCase } from './application/useCases/mapper.useCase';
+import { SesSnsEventFactory } from './application/factory/sesSnsEvent.factory';
 
 @Module({
   imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [SesSnsEventController],
+  providers: [MapperUseCase, SesSnsEventFactory],
 })
 export class AppModule {}
